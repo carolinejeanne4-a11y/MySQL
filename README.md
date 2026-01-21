@@ -1,4 +1,7 @@
 # MySQL
+MySQL query that analyzes student enrollment in courses, instructor schedules, and student graduation eligibility based on GPA values through the use of views and CTEs.
+
+
 CREATE DATABASE IF NOT EXISTS Uni;
 CREATE TABLE IF NOT EXISTS uni.students (student_id INT PRIMARY KEY, firstname VARCHAR(50), lastname VARCHAR(50), DOB DATE, Major VARCHAR(50), GPA DECIMAL(3,1));
 INSERT INTO uni.students (student_id, firstname, lastname, DOB, Major, GPA) values 
